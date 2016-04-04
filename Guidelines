@@ -50,7 +50,7 @@ attached volume, it will create a new FS in that of relevant size. We have to im
 Fourthly, dd to it. It has been briefly discussed above.
 
 and once done, 
-heck the  FS on that volume; it may or may not exist. Enquire that first in someway.
+Check the  FS on that volume; it may or may not exist. Enquire that first in someway.
         > if FS doesn't exist (maybe be checked using some command), create one using given volume-id (maybe after some modification to it).
         > if FS does exist, "dd" to it.
           dd will execute on the client machine but I think in two parts; "dd if=tar-file" will start on client but "dd of=/<vol-id> bs=5M" has to be
