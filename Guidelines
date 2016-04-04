@@ -1,4 +1,4 @@
-We have to create a backup tool (for offloading backups to AWS EC2 instances). For that to work, client has to do some things beforehand.
+We have to create a backup tool (for offloading backups to an AWS EC2 instance). For that to work, client has to do some things beforehand.
 That includes:
 		> Working aws cli package
 		> Proper environment variables set. Refer to tool's help file using "-h" flag to check the requirements.
